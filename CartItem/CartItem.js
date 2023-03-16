@@ -43,6 +43,10 @@ module.exports = class CartItem {
         throw new Error();
     }
 
+    get currency(){
+        throw new Error();
+    }
+
     get total() {
         throw new Error();
     }
